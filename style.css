@@ -1,0 +1,484 @@
+body {
+  font-family: Trebuchet MS;
+  overflow-y: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  width: 150px;
+}
+
+.landing-page {
+  background: url(images/winter-house.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+.smartphone-search {
+  display: none;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-margin {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90vw;
+  margin-left: 85px;
+  margin-right: 85px;
+}
+
+.logo-container {
+  position: sticky;
+}
+
+.logo-container a {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.logo-container i {
+  font-size: 35px;
+}
+
+.center-tags {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  width: 350px;
+  margin: 0 auto;
+}
+
+.center-tags a {
+  color: white;
+}
+
+.center-tags a:hover {
+  color: rgb(221, 221, 221);
+}
+
+.right-tags {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  width: 275px;
+}
+
+.become-host {
+  color: white;
+  padding: 12px;
+}
+
+.become-host:hover {
+  background: rgb(255, 255, 255, 0.25);
+  border-radius: 25px;
+}
+
+.globe a{
+  color: white;
+  padding-right: 10px;
+  padding: 12px;
+}
+
+.globe a:hover {
+  background: rgb(255, 255, 255, 0.25);
+  border-radius: 25px;
+}
+
+.user a{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: white;
+  border-radius: 50px;
+  height: 40px;
+  border: solid 2px white;
+}
+
+.user-circle {
+  font-size: max(1.5rem, 2vw);
+  padding-left: 15px;
+  color: rgb(119, 119, 119);
+  padding-right: 6px;
+}
+
+.bars {
+  color: rgb(119, 119, 119);
+  padding-left: 12px;
+}
+
+/*Search-Bar###########################################################*/
+
+.hidden-nav {
+  display: none;
+}
+
+.search-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background: white;
+  width: 725px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 40px;
+  height: 25px;
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  width: 175px;
+  padding-right: 20px;
+}
+
+.location input {
+  border: none;
+}
+
+.check-in {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  border-left: solid 1px rgb(165, 165, 165);
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.check-in input {
+  border: none;
+}
+
+.check-out {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  border-left: solid 1px rgb(165, 165, 165);
+  border-right: solid 1px rgb(165, 165, 165);
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.check-out input {
+  border: none;
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.search i {
+  color: white;
+  background: rgb(255, 23, 81);
+  border-radius: 25px;
+  font-size: 15px;
+  padding: 15px;
+  height: 15px;
+}
+
+.search i:hover {
+  background-color: rgb(212, 0, 53);
+}
+
+.guests {
+  line-height: 5px;
+}
+
+.add-guests {
+  color: grey;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 65px;
+  left: 0;
+  background-color: white;
+  min-width: 151px;
+  height: 195px;
+  line-height: 25px;
+  text-decoration: none;
+  font-family: Trebuchet MS; 
+  padding: 8px;
+  color: black;
+  border-radius: 25px;
+}
+
+.dropdown-content a {
+  padding: 5px;
+}
+
+.search:hover .dropdown-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown-content a {
+  color: black;
+}
+
+.dropdown-content a:hover {
+  background: rgb(0, 0, 0, 0.1);
+  border-radius: 25px;
+}
+
+/*Hero#################################################################*/
+
+.central-container {
+  display: flex;
+  align-items: center;
+  height: 600px;
+  width: 90%;
+  margin-left: 85px;
+  margin-right: 85px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  width: 325px;
+  
+}
+
+.go-near {
+  color: white;
+  font-size: 45px;
+  height: 5px;
+}
+
+.hero-text {
+  color: white;
+}
+
+.hero a {
+  color: black;
+  background: white;
+  border-radius: 10px;
+  width: 110px;
+  padding: 8px 14px 8px 14px;
+}
+
+.hero a:hover {
+  background-color: rgb(221, 221, 221);
+}
+
+.smartphone-nav {
+  display: none;
+}
+
+/*###################################################################*/
+
+@media screen and (max-width: 1125px) {
+  .nav-margin {
+    align-items: center;
+    margin-left: 45px;
+    margin-right: 45px;
+  }
+
+  .central-container {
+    margin-left: 45px;
+    margin-right: 45px;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .logo-container a {
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .hidden-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin: 0 auto;
+  }
+
+  .hidden-tags {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 350px;
+  }
+
+  .hidden-tags a {
+    color: white;
+  }
+
+  .center-tags {
+    display: none;
+  }
+
+  .search-bar {
+    margin: 5px;
+    margin-left: 45px;
+    margin-right: 45px;
+    width: 80vw;
+  }
+
+  .location {
+    width: 20vw;
+  }
+
+  .check-in {
+    width: 15vw;
+  }
+
+  .check-out {
+    width: 15vw;
+  }
+
+  .search {
+    width: 20vw;
+    flex-wrap: nowrap;
+  }
+
+  .add-guests {
+    line-height: 5px;
+  }
+}
+
+@media screen and (max-width: 744px) {
+  .nav-container {
+    display: none;
+  }
+
+  .search-bar {
+    display: none;
+  }
+
+  .hidden-nav {
+    display: none;
+  }
+
+  .smartphone-search {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .smartphone-search input {
+    display: flex;
+    width: 90vw;
+    height: 35px;
+    border-radius: 25px;
+    padding: 3px;
+  }
+
+  .central-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 625px;
+    margin: 0 auto;
+  }
+
+  .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 275px;
+  }
+
+  .go-near {
+    font-size: 30px;
+  }
+
+  .hero-text {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .hero a {
+    font-size: 12px;
+    width: 81px;
+  }
+
+  .smartphone-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 100vw;
+    height: 75px;
+    position: sticky;
+    bottom: 0;
+  }
+
+  .smart-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 300px;
+    height: 30px;
+  }
+
+  .explore {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .saved {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .smart-nav i {
+    font-size: 25px;
+    color: rgb(158, 158, 158);
+  }
+
+  .smart-nav i:hover {
+    color: rgb(255, 0, 64);
+  }
+
+  .smart-nav p {
+    font-size: 11px;
+  }
+
+}

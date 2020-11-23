@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+
+  </head>
+  <body>
+    <main class = "landing-page">
+
+<!--Nav-Bar###########################################################-->
+      <div class = "smartphone-search">
+        <input type = "text" id = "smart-search" name = "usmart-search" minlength="4" maxlength = "25" placeholder = "Where are you going?">
+      </div>
+      <nav class = "nav-container">
+        <div class = "nav-margin">
+          <div class = "logo-container">
+            <a href = "#">
+              <i class="fab fa-airbnb"></i>
+              <p class = "logo">airbnb</p>
+            </a>
+          </div>
+          <div class = "center-tags">
+            <a href = "#"><p class = "places-to-stay">Places to stay</p></a>
+            <a href = "#"><p class = "exp">Experiences</p></a>
+            <a href = "#"><p class = "online-exp">Online Experiences</p></a>
+          </div>
+          <div class = "right-tags">
+            <a href = "#"><p class = "become-host">Become a host</p></a>
+            <div class = "globe">
+              <a href = "#">
+                <i class="fas fa-globe"></i>
+                <i class="fas fa-chevron-down"></i>
+              </a>
+            </div>
+            <div class = "user">
+              <a href = "#">
+                <div class = "bars">
+                  <i class="fas fa-bars"></i>
+                </div>
+                <div class = "user-circle">
+                  <i class="fas fa-user-circle"></i>
+                </div>
+              </a>  
+            </div>
+          </div>
+        </div>
+      </nav>
+
+<!--Search-Bar########################################################-->
+      <section class = "hidden-nav">
+        <div class = "hidden-tags">
+          <a href = "#"><p class = "new-places-to-stay">Places to stay</p></a>
+          <a href = "#"><p class = "new-exp">Experiences</p></a>
+          <a href = "#"><p class = "new-online-exp">Online Experiences</p></a>
+        </div>
+      </section>
+      <section class = "search-bar">
+        <div class = "location">
+          <label for = "user-location">Location</label>
+          <input type = "text" id = "user-location" name = "user-location" minlength="4" maxlength = "25" placeholder = "Where are you going?">
+        </div>
+        <div class = "check-in">
+          <label for = "user-check-in">Check In</label>
+          <input type = "date" id = "user-check-in" name = "user-check-in" value = "2020-11-17" min = "2020-11-17" max = "none">
+        </div>
+        <div class = "check-out">
+          <label for = "user-check-out">Check Out</label>
+          <input type = "date" id = "user-check-out" name = "user-check-out" value = "2020-11-17" min = "2020-11-17" max = "none">
+        </div>
+        <div class = "search">
+          <div class = "guests">
+            <p class = "user-guests">Guests</p>
+            <p class = "add-guests">Add guests</p>
+          </div>
+          <a href = "#"><i class="fas fa-search"></i></a>
+          <div class="dropdown">
+            <div class="dropdown-content">
+              <a href="#">1 Guest</a>
+              <hr>
+              <a href="#">2 Guests</a>
+              <hr>
+              <a href="#">3 Guests</a>
+              <hr>
+              <a href="#">4 Guests</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+<!--Hero########################################################-->
+
+
+      <section class = "central-container">
+        <div class = "hero">
+          <h1 class = "go-near">Go Near</h1>
+          <p class = "hero-text">Settle in somewhere new. Discover stays to live, work, or just relax.</p>
+          <a href = "#' class = "explore">Explore nearby</a>
+        </div>
+      </section>
+      <section class = "smartphone-nav">
+        <div class = "smart-nav">
+          <div class = "explore">
+            <a href = "#"><i class="fas fa-search"></i></a>
+            <p>Explore</p>
+          </div>
+          <div class = "saved">
+            <a href = "#"><i class="far fa-heart"></i></a>
+            <p>Saved</p>
+          </div>
+          <div class = "login">
+            <a href = "#"><i class="fas fa-user-circle"></i></a>
+            <p>Log in</p>
+          </div>
+        </div>
+      </section>
+    </body>
+</html>
